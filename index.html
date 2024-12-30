@@ -1,64 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Une Lampe Solaire Portable</title>
+    <title>SolarLite - Éclairez votre vie naturellement</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- En-tête -->
     <header>
-<div><span>Solar</span>lite</div>
-<nav>
-    <a href="#">Accueil</a>
-    <a href="#">A propos</a>
-    <a href="#">Contact</a>
-</nav>
+        <div class="logo">SolarLite</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#features">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h1>"Éclairez votre vie, naturellement !"</h1>
-        <div>
-        </div>
-    </section>
+
+    <!-- Section Héro -->
     <section id="hero">
-<img src="image2.jpg" alt="">
-    <div>
-        <h1>La Lampe Solaire qu'il faut</h1>
-        <button>En savoir plus</button>
-    </div>
-   </section>
-    <section id="fonctionnalite">
-        <h1>Pourquoi choisir SolarLite</h1>
-        <p>SolarLite est une lampe solaire portable, idéale pour les voyages et les zones sans
-            électricité. Rechargeable au soleil, elle est compacte, durable et respectueuse de
-           l’environnement.</p>
-      <div>
-    <div id="points clés"></div>
-    <div>
-        <h1>Rechargeable grace au soleil</h1>
-        <img src="Image 2024.jpg" alt="">
-    </div>
-    <div>
-        <h1>compacte facile a transporter</h1>
-        <img src="image2.jpg" alt="">
-    </div>
-    <div>
-        <h1>Durer de vie prolongé avec une batteri integré</h1>
-        <img src="Image -.jpg" alt="">
-    </div>
+        <h1>La lampe solaire qu'il vous faut !</h1>
+        <img src="image/Image -.jpg" alt="">
+        <button id="learn-more">En savoir plus</button>
     </section>
-    <section id="Contact">
-        <h1>Restez informé</h1>
-        <form action="">
-            <label for="">Nom</label>
-            <input type="text">
-            <label for="">E-mail</label>
-            <input type="text">
-            <button>Soumettre</button>
+
+    <!-- Section Fonctionnalités -->
+    <section id="features">
+        <h2>Pourquoi choisir SolarLite ?</h2>
+        <ul>
+            <li>
+                <img src="image/Image 2024.jpg" alt="Icône soleil">
+                <p>Rechargeable grâce au soleil.</p>
+            </li>
+            <li>
+                <img src="image/Image -.jpg" alt="Icône compact">
+                <p>Compacte et facile à transporter.</p>
+            </li>
+            <li>
+                <img src="image/img5.jpg" alt="Icône batterie">
+                <p>Durée de vie prolongée avec une batterie intégrée.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Restez informé !</h2>
+        <form id="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Soumettre</button>
         </form>
-
     </section>
-    <footer>
 
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 SolarLite. Tous droits réservés.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
